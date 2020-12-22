@@ -1,0 +1,26 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "a node typescript demo",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "author": "caif",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
